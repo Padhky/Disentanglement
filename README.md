@@ -1,5 +1,7 @@
 # Disentanglement of MNIST dataset using Multi-Level variational Auto encoder  
 
+Implementation of the multi level variational auto encoder for MNIST dataset https://arxiv.org/abs/1705.08841. The experiment of base paper is extended by applying convolutional architecture for the training. 
+
 # t-SNE plot of content embedding by applying group supervision
 ![TSNE_content_MNIST](https://user-images.githubusercontent.com/57464195/167592673-d85969d7-e241-4ae4-952e-0e88967413a0.png)
 
