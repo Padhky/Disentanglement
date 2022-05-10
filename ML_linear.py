@@ -105,6 +105,7 @@ class ML_VAE_decoder(nn.Module):
     
     
 def accumulate_evidence(mu,logvar, digit_batch):
+    """ This method is adapted from https://github.com/DianeBouchacourt/multi-level-vae""
     content_mu = []
     content_logvar = []
     batch_labels = []
